@@ -35,14 +35,14 @@
         <div class="ss-section">
             <div class="container">
                 <div class="text-center mt-5">
-                    <button id="a-make" class="btn btn-primary btn-lg btn-block">Take a photo</button>
+                    <button id="a-make" class="btn btn-primary btn-block">Take a photo</button>
                     <a id="a-download" style="display: none;" href="#" class="btn btn-primary btn-lg btn-block">Download</a>
                 </div>
             </div>
         </div>
 
-        <a-scene
-            id="main"
+        <div id="main">
+            <a-scene
             loading-screen="dotsColor: white; backgroundColor: black; enabled: true"
             xrweb
             gesture-detector
@@ -74,7 +74,7 @@
                 scale="1000 2 1000"
                 position="0 -1 0">
             </a-entity>
-
         </a-scene>
+        </div>
     </body>
 </html>
