@@ -2,7 +2,7 @@ let tempSsButton = null;
 let tempDownloadButton = null;
 
 function makeScreenshot(){
-    html2canvas(document.getElementById("camera"), {scale: 2}).then(canvas =>{
+    html2canvas(document.getElementById("screenshot"), {scale: 2}).then(canvas =>{
         canvas.id = "canvasID";
         var main = document.getElementById("main");
         //while (main.firstChild) { main.removeChild(main.firstChild); }
